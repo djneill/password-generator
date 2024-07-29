@@ -28,7 +28,6 @@ body {
   line-height: 23px;
 }
 
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
