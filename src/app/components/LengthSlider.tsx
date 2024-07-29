@@ -16,7 +16,7 @@ export default function LengthSlider({ length, setLength }: LengthSliderProps) {
                 max="20"
                 value={length}
                 onChange={(e) => setLength(parseInt(e.target.value))}
-                className="w-full accent-[#A4FFAF] hover:accent-[#24232C] focus:outline-none"
+                className="w-full accent-[#A4FFAF] outline-none"
             />
         </div>
     );
